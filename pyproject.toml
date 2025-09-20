@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "spanfbl1902-equipos"
+version = "0.1.0"
+description = "API para gestionar equipos"
+authors = ["RodrigoMB10","rodrigomannas@hotmail.com"]
+packages = [{ include = "spanfbl1902_equipos" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.16"
+annotated-types = "^0.7"
+asyncpg = "^0.30"
+fastapi = "^0.115"
+httpx = "^0.28"
+logging = "^0.4"
+psycopg2-binary = "^2.9"
+pydantic = "^2.11"
+pytest = "^8.3"
+python-decouple = "^3.8"
+python-dotenv = "^1.1"
+slowapi = "^0.1"
+sqlalchemy = "^2.0"
+uvicorn = "^0.34"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
